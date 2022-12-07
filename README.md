@@ -59,3 +59,19 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+## How to use
+
+Fill the following data in .env file in the project's root directory.
+
+MAIL_MAILER=mailgun
+MAIL_HOST=smtp.mailgun.org
+MAIL_PORT=587
+MAIL_USERNAME=postmaster@{your_domain_name}
+MAIL_PASSWORD=your_password_here
+MAIL_ENCRYPTION=SSL
+MAIL_FROM_ADDRESS="username@domain.mailgun.org"
+MAIL_FROM_NAME="${APP_NAME}"
+MAILGUN_DOMAIN={your_domain_name}	
+MAILGUN_SECRET={your_mailgun_secret_api_key}
